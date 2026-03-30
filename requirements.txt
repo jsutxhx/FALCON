@@ -1,0 +1,20 @@
+# 核心框架
+torch>=2.0.0
+transformers>=4.30.0
+numpy>=1.24.0
+scipy>=1.10.0
+pandas>=2.0.0
+
+# 知识图谱
+networkx>=3.0
+
+# 工具依赖
+pyyaml>=6.0
+tqdm>=4.65.0
+loguru>=0.7.0
+
+# 向量检索
+faiss-cpu>=1.7.4
+
+
+
