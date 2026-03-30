@@ -1,0 +1,16 @@
+[
+  {
+    "paper_id": "candidate1",
+    "score": 0.0,
+    "reason": "This paper is highly relevant to the query paper as it addresses similar research tasks and uses compatible methodologies.",
+    "citation_position": "methodology",
+    "confidence": "high"
+  },
+  {
+    "paper_id": "candidate2",
+    "score": 0.0,
+    "reason": "This paper provides useful background information and theoretical foundation for the research.",
+    "citation_position": "introduction",
+    "confidence": "medium"
+  }
+]
