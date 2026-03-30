@@ -1,0 +1,21 @@
+# LLM配置
+llm:
+  # 模型选择
+  model_name: "llama-13b"  # llama-7b, llama-13b, qwen-7b, chatglm3-6b
+  
+  # 生成参数
+  temperature: 0.7
+  max_tokens: 2048
+  top_p: 0.9
+  
+  # API配置 (如使用API)
+  api_base: null
+  api_key: null
+  
+  # 本地模型配置
+  local_model_path: "models/llama-13b"
+  load_in_8bit: true
+  device_map: "auto"
+
+
+

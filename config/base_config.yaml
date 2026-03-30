@@ -1,0 +1,26 @@
+# 基础配置
+project_name: "FALCON"
+random_seed: 42
+device: "cuda"
+
+# 路径配置
+data:
+  raw_dir: "data/raw"
+  processed_dir: "data/processed"
+  kg_dir: "data/knowledge_graph"
+  splits_dir: "data/splits"
+
+output:
+  checkpoint_dir: "checkpoints"
+  log_dir: "logs"
+  result_dir: "outputs"
+
+# 数据集划分比例
+split_ratio:
+  train: 0.8
+  val: 0.1
+  test: 0.1
+
+
+
+

@@ -1,0 +1,47 @@
+# 知识图谱配置
+knowledge_graph:
+  # 实体类型
+  entity_types:
+    - task
+    - method
+    - material
+    - metric
+    - other
+  
+  # 关系类型
+  relation_types:
+    - contains
+    - hierarchy
+    - implement
+    - use
+    - evaluate
+  
+  # 实体类型权重 (用于相似度计算)
+  type_weights:
+    task: 0.25
+    method: 0.35
+    material: 0.20
+    metric: 0.15
+    other: 0.05
+
+# 检索配置
+retrieval:
+  # 路径相似度
+  path_decay_factor: 0.5      # η
+  max_path_length: 3
+  
+  # 随机游走
+  restart_prob: 0.15          # c
+  max_iterations: 20
+  convergence_threshold: 1e-6
+  
+  # 融合权重
+  entity_path_balance: 0.6    # γ (entity vs path)
+  
+  # 候选数量
+  top_k_candidates: 100
+  expand_threshold: 0.1       # τ
+
+
+
+

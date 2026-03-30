@@ -1,0 +1,34 @@
+# 嵌入配置
+embeddings:
+  paper_dim: 768        # SPECTER输出维度
+  entity_dim: 768
+  relation_dim: 128     # TransE关系嵌入维度
+
+# TransE训练配置
+transe:
+  learning_rate: 0.001
+  batch_size: 256
+  epochs: 100
+  margin: 1.0
+  negative_samples: 5
+
+# 实体抽取器配置
+entity_extractor:
+  model_name: "allenai/scibert_scivocab_uncased"
+  max_length: 512
+  learning_rate: 2e-5
+  batch_size: 32
+  epochs: 10
+
+# 引用功能分类器配置
+citation_classifier:
+  model_name: "allenai/scibert_scivocab_uncased"
+  max_length: 256
+  learning_rate: 2e-5
+  batch_size: 32
+  epochs: 5
+  num_classes: 4
+
+
+
+
