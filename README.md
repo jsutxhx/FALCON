@@ -309,11 +309,11 @@ If you use FALCON in your research, please cite:
 
 ## License
 
-[Add license information here]
+copyright reserved by Haixu Xi
 
 ## Contact
 
-[Add contact information here]
+xihaixu@jsut.edu.cn
 
 ## Acknowledgments
 
